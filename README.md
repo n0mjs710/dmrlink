@@ -1,26 +1,3 @@
----
-### FOR SUPPORT, DISCUSSION, GETTING INVOLVED ###
-
-Please join the DVSwitch group at groups.io for online forum support, discussion, and to become part of the development team.
-
-DVSwitch@groups.io 
-
----
-**FOR THE IMPATENT PLEASE AT LEAST READ THIS**
-
-There are two ways to "install" DMRlink:
-
-1) Use the mk-drmlink
-
-2) Don't
-
-The mk-dmrlink script will create a directory tree and copy all of the pertient files, making duplicates of some things so that each of the applications have a full set of all of the files they need, standalone.
-
-Not using the mk-dmrlink leaves the structure as it existis in the repo, which is fully functional. It trades the autonomy of the file tree and duplicates for a simpler installation, and the ability to sync to new versions more easily.
-
-The one you use is up to you -- just please don't blindly go download it and type "./mk-dmrlink" becuase that's just what you always do. Please think about it.
-
-
 ##PROJECT: Open Source IPSC Client.
 **PURPOSE:** Understanding IPSC, building an open-source IPSC "stack", troubleshooting IPSC performance issues, and as a basis to easily write applications such as logging, bridging, etc.
 
