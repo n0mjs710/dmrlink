@@ -335,7 +335,7 @@ class confbridgeIPSC(IPSC):
                                 if _slot_valid:
                                     if _target['TS'] == 1:
                                         _burst_data_type = BURST_DATA_TYPE['SLOT1_VOICE']
-                                    elif _target['TS'] == 1:
+                                    elif _target['TS'] == 2:
                                         _burst_data_type = BURST_DATA_TYPE['SLOT2_VOICE']
                                     _tmp_data = _tmp_data[:30] + _burst_data_type + _tmp_data[31:]
 
